@@ -1,0 +1,196 @@
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: rgba(248, 196, 240, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+
+.main {
+    width: 90%;
+    font-family: Poppins, Helvetica, sans-serif;
+
+}
+
+.header > h1 {
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+
+.formulario-juego,
+.formulario,
+.entrada {
+    display: flex;
+}
+
+.formulario-juego {
+    justify-content: space-between;
+    margin: 0rem 2rem;
+}
+
+.formulario {
+    flex-direction: column;
+}
+
+.entrada {
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+.entrada > label {
+    width: 25rem;
+}
+.entrada > input {
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.btn-generar {
+    background-color: #760088;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.contenedor-juego {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.contenedor-juego > h2 {
+    margin-bottom: 0.5rem;
+}
+#num-banderas {
+    color: rgb(241, 190, 254);
+    font-weight: bold;
+}
+
+.juego {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(233, 183, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-bottom: 30px;
+    padding: 0.5rem; 
+    justify-content: center; 
+}
+
+
+.juego div {
+    height: 3rem; 
+    width: 3rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(125, 74, 123);
+    margin: 0.2rem; 
+    border-radius: 5px;
+}
+
+.contenedor-juego {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    align-items: center; 
+}
+
+.marcada {
+    background-color: rgb(255, 234, 254);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.bandera {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.back-red {
+    background-color: rgb(153, 0, 255) !important;
+    color: #fff;
+}
+
+.back-green {
+    background-color: rgb(244, 161, 255) !important;
+    color: #fff;
+}
+
+.resultado-juego {
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 1rem 0rem;
+    width: 200px; 
+    border-radius: 5px;
+}
+
+.main {
+    width: 90%;
+    font-family: Poppins, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.header > h1 {
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+.formulario-juego {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0rem 2rem;
+}
+
+.entrada {
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.entrada > label {
+    width: 25rem;
+}
+
+.entrada > input {
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 50%;
+    outline: none;
+}
+
